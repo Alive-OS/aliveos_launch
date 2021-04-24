@@ -1,0 +1,5 @@
+<launch>
+
+    <param name="FLAG_EGO_READY" type="bool" value="false" />
+
+</launch>
