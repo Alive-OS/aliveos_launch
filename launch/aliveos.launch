@@ -1,6 +1,9 @@
 <launch>
 
-    <include file="$(dirname)/_interpreters.launch" />
-    <include file="$(dirname)/_emotion_core.launch" />
+    <include file="$(find aliveos_launch)/launch/param/flags.launch" />
+    
+    <include file="$(find aliveos_launch)/launch/components/msgs.launch" />
+    <include file="$(find aliveos_launch)/launch/components/interpreters.launch" />
+    <include file="$(find aliveos_launch)/launch/components/emotion_core.launch" />
 
 </launch>
